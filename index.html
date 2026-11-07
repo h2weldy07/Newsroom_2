@@ -15,12 +15,14 @@
     </style>
   </head>
   <body>
+    <script>
+      music_function(){
+        return <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/17HsyeI0Eq06n3XRntZ4DT?utm_source=generator&si=23c4ed3ae3e54e28" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>;
+      }
+    </script>
     <h1>AI is Influencing the Music Industry!</h1><!--can be what ashton puts as the title--> 
     <!-- create a button that when clicked plays an ai song-, use onclik?-->
-    <button id="music_button" class="button"> click me to hear an AI song </button>
-    <!--<script>
-      music_function():
-    </script>-->
+    <button id="music_button" class="button" onclick=music_function(); > click me to hear an AI song </button>
     
   </body>
 </html>
